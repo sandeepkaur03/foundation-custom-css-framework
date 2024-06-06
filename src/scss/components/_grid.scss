@@ -1,0 +1,28 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -$global-spacing-unit / 2;
+  margin-left: -$global-spacing-unit / 2;
+
+  @include clearfix;
+}
+
+.column {
+  flex: 1;
+  padding-right: $global-spacing-unit / 2;
+  padding-left: $global-spacing-unit / 2;
+
+  &.small-12 {
+    flex: 0 0 100%;
+  }
+
+  &.medium-6 {
+    flex: 0 0 50%;
+  }
+
+  &.large-4 {
+    flex: 0 0 33.3333%;
+  }
+
+}
+

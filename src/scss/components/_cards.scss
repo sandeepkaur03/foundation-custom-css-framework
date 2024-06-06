@@ -1,0 +1,12 @@
+.card {
+  border: 1px solid $secondary-color;
+  border-radius: 0.25rem;
+  padding: $global-spacing-unit;
+  background-color: $light-color;
+  @include transition(all, 0.3s);
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+

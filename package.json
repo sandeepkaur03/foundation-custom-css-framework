@@ -1,0 +1,13 @@
+{
+  "name": "foundation-custom-css-framework",
+  "version": "1.0.0",
+  "description": "We selected Foundation as our project topic. We created a custom css framework based on Foundation. It is a CSS framework that is easy to use and provides a consistent design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss/foundation.scss dist/css/foundation.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
