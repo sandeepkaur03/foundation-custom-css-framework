@@ -3,10 +3,14 @@
 We selected Foundation as our project topic. We created a custom css framework based on Foundation. It is a CSS framework that is easy to use and provides a consistent design.
 
 add the line below to your project to use this custom framework.
+
+```html
 <link rel="stylesheet" href="dist/css/foundation.css">
+```
 
 Examples:
 
+```html
 <button class="button">Primary Button</button>
 <button class="button secondary">Secondary Button</button>
 <button class="button success">Success Button</button>
@@ -38,5 +42,6 @@ Examples:
   <h3>Card Title</h3>
   <p>Card content goes here.</p>
 </div>
+```
 
 Customize the framework by modifying the variables in src/scss/settings/_variables.scss.
